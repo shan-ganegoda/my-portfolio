@@ -1,0 +1,77 @@
+.certificates__content{
+    grid-template-columns: repeat(3,250px);
+    column-gap: 3rem;
+    justify-content: center;
+} 
+
+.certificate__item img{
+    width: 20rem;
+    border: 1px solid #000;
+}
+
+.certificate__item img:hover{
+    transform: scale(2);
+}
+
+.certificates__backgroundeffect{
+    width: 100%;
+    height: 100%;
+    background-color: lightsalmon;
+    position: absolute;
+    z-index: -1000;
+    border: 1px solid transparent ; 
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%  ;
+    right: -50rem; 
+    top: 220rem;
+    animation: backgroundeffect__animate 8s ease-in-out infinite 1s;
+}
+
+@keyframes backgroundeffect__animate{
+    0%{
+        border-radius: 60% 40% 30% 70%/ 60% 30% 70% 40%;
+    }
+
+    50%{
+        border-radius: 30% 60% 70% 40%/ 50% 60% 30% 60%;
+    }
+
+    100%{
+        border-radius: 60% 40% 30% 70%/ 60% 30% 70% 40%;
+    }
+
+}
+
+
+/* ================BREAKPOINTS======================== */
+
+/* For Large Devices */
+@media screen and (max-width: 992px){
+    .certificates__content{
+        grid-template-columns: repeat(2,250px);
+        column-gap: 3rem;
+        justify-content: center;
+    } 
+
+    .certificates__backgroundeffect{
+        display: none;
+    }
+}
+
+/* For Medium Devices */
+/* @media screen and (max-width: 768px){} */
+
+@media screen and (max-width: 576px){
+    .certificates__content{
+        grid-template-columns: repeat(1,350px);
+        column-gap: 3rem;
+        justify-content: center;
+    } 
+}
+
+/* For Small Devices */
+@media screen and (max-width: 400px){
+    .certificates__content{
+        grid-template-columns: repeat(1,1fr);
+        
+    } 
+}
