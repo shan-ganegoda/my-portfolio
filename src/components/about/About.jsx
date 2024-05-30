@@ -11,19 +11,19 @@ const About = () => {
         <h2 className="section__title">About Me</h2>
         <span className="section__subtitle">My Introduction</span>  
 
-        <div className="backgroundeffect"></div>
-
-        <div className="about__container container grid">
+        <div className="about__container container grid ">
             <img src={AboutImg} alt="AboutImage" className="about__img" />
 
             <div className="about__data">
                 <Info />
 
                 <p className="about__description">
-                    Fullstack Developer,I Build fullstack web-apps with amazing
-                    mindblowing ui's,i am Undergraduate of University of Colombo
-                    School of Computing.
-                </p>
+                👨‍💻 Passionate Fullstack Developer with a knack for crafting innovative web solutions.</p>
+                <p className="about__description">
+                🌐 Fluent in both front-end and back-end technologies, I bring a holistic approach to web development.</p>
+                <p className="about__description">
+                🚀 Dedicated to staying updated with the latest trends and best practices in the tech world.</p>
+                
 
                 <a download="" href={CV} className="button button--flex">
                     Download Resume

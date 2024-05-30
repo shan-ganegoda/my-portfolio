@@ -9,16 +9,19 @@ import  JavaI  from '../../assets/certificates/ji.png';
 import  ReactB  from '../../assets/certificates/rb.png';
 import  JavaP  from '../../assets/certificates/jp.png';
 import  JiraFund  from '../../assets/certificates/jiraf.png';
+import  Postman  from '../../assets/certificates/Postman.png';
+import  Angular from '../../assets/certificates/angular.png';
+import  Security from '../../assets/certificates/springsecurity.png';
 
 
 const Certificates = () => {
+
   return (
     <section className="certificates section" id="certificates">
         <h2 className="section__title">Certificates</h2>
         <span className="section__subtitle">What i archived</span>
 
-        <div className="certificates__backgroundeffect"></div>
-
+    
         <div className="certificates__container container">
             <div className="certificates__content  grid">
 
@@ -60,6 +63,21 @@ const Certificates = () => {
                 <div className="certificate__item">
                     <img src={JiraFund} alt="Jira Fundementals" />
                     <span>Jira Fundementals</span>
+                </div>
+
+                <div className="certificate__item">
+                    <img src={Postman} alt="Postman" />
+                    <span>Postman Student Expert</span>
+                </div>
+
+                <div className="certificate__item">
+                    <img src={Angular} alt="Angular" />
+                    <span>Angular</span>
+                </div>
+
+                <div className="certificate__item">
+                    <img src={Security} alt="Security" />
+                    <span>Spring Security</span>
                 </div>
 
             </div>

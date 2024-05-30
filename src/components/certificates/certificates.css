@@ -4,42 +4,27 @@
     justify-content: center;
 } 
 
+.certificate__item{
+    text-align: center;
+}
+
+.certificate__item span{
+    font-weight: bold;
+    color: var(--text-color);
+}
+
 .certificate__item img{
     width: 20rem;
+    height: 12rem;
     border: 1px solid #000;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
 }
 
 .certificate__item img:hover{
     transform: scale(2);
 }
 
-.certificates__backgroundeffect{
-    width: 100%;
-    height: 100%;
-    background-color: lightsalmon;
-    position: absolute;
-    z-index: -1000;
-    border: 1px solid transparent ; 
-    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%  ;
-    right: -50rem; 
-    top: 220rem;
-    animation: backgroundeffect__animate 8s ease-in-out infinite 1s;
-}
 
-@keyframes backgroundeffect__animate{
-    0%{
-        border-radius: 60% 40% 30% 70%/ 60% 30% 70% 40%;
-    }
-
-    50%{
-        border-radius: 30% 60% 70% 40%/ 50% 60% 30% 60%;
-    }
-
-    100%{
-        border-radius: 60% 40% 30% 70%/ 60% 30% 70% 40%;
-    }
-
-}
 
 
 /* ================BREAKPOINTS======================== */

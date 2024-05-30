@@ -22,6 +22,7 @@ const Qualification = () => {
                         <div className='card__data'>
                             <h3 className="qualification__title">Bachlor Of Information Technology</h3>
                             <span className="qualification__subtitle">UCSC</span>
+                            <p className="qualification__description">3rd Year Undergraduate</p>
                             <div className="qualification__calender">
                                 <i className="uil uil-calendar-alt"></i>2021 - Present
                             </div>
@@ -32,8 +33,8 @@ const Qualification = () => {
 
                         <div className='card__data'>
                             <h3 className="qualification__title">G.C.E Advanced Level</h3>
-                            <span className="qualification__subtitle"></span>
-                            <span className="qualification__description">Sat For Exam in Science Stream</span>
+                            <p className="qualification__subtitle">DS Senanayaka College Colombo</p>
+                            <p className="qualification__description">Sat For Exam in Science Stream</p>
                             
                             <div className="qualification__calender">
                                 <i className="uil uil-calendar-alt"></i>2019
@@ -46,8 +47,8 @@ const Qualification = () => {
 
                         <div className='card__data'>
                             <h3 className="qualification__title">G.C.E Ordinary Level</h3>
-                            <span className="qualification__subtitle">DS Senanayaka College</span>
-                            <span className="qualification__description">Completed with 3A 3B 3C</span>
+                            <p className="qualification__subtitle">DS Senanayaka College Colombo</p>
+                            <p className="qualification__description">Completed with 3A 3B 3C</p>
                             <div className="qualification__calender">
                                 <i className="uil uil-calendar-alt"></i>2016
                             </div>
@@ -73,6 +74,9 @@ const Qualification = () => {
                         <div className='card__data'>
                             <h3 className="qualification__title">Demonstrator</h3>
                             <span className="qualification__subtitle">Earth International</span>
+                            <p className="qualification__description">Tasked with assisting lecturers during lab sessions, which included coding sessions and 
+content development.And also tasked to teach students on programming and database 
+systems.</p>
                             <div className="qualification__calender">
                                 <i className="uil uil-calendar-alt"></i>2022 - 2023
                             </div>
