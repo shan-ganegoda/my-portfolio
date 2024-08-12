@@ -8,9 +8,15 @@
     position: relative;
     border: 1px solid rgba(0,0,0,0.1);
     
+    
     overflow: hidden;
-    background-color: var(--container-color);
+
     width: 25rem;
+
+    @apply
+    rounded-2xl
+    shadow-2xl
+    
     
 }
 
@@ -27,25 +33,28 @@
     font-size: var(--font-semi-bold);
     font-weight: 600;
     color: black;
+    margin-bottom: 1rem;
+}
+
+.data__body{
+    @apply
+    p-2
+
 }
 
 .data__tags{
-    margin-top: 1rem;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+   display: flex;
+   gap: 1rem;
+   margin-top: 1rem;
+   justify-content: center;
+   @apply
+   font-bold
 }
 
 .tags{
-
-    background: #000;
-    /* width: 6rem; */
-    padding: 0.1rem 0.8rem;
-    border: 1px solid #000;
-    border-radius: 25px;
-    color: #fff;
-    margin: 10px;
+    @apply
+    text-black
+    badge badge-accent
 }
 
 
