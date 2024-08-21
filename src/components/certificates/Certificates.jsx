@@ -12,6 +12,8 @@ import  JiraFund  from '../../assets/certificates/jiraf.png';
 import  Postman  from '../../assets/certificates/Postman.png';
 import  Angular from '../../assets/certificates/angular.png';
 import  Security from '../../assets/certificates/springsecurity.png';
+import  JUnit from '../../assets/certificates/junit.png';
+import  GitHub from '../../assets/certificates/github.png';
 
 
 const Certificates = () => {
@@ -21,8 +23,9 @@ const Certificates = () => {
         <h2 className="section__title">Certificates</h2>
         <span className="section__subtitle">What i archived</span>
 
-    
+
         <div className="certificates__container container">
+
             <div className="certificates__content  grid">
 
                 <div className="certificate__item">
@@ -80,9 +83,19 @@ const Certificates = () => {
                     <span>Spring Security</span>
                 </div>
 
+                <div className="certificate__item">
+                    <img src={JUnit} alt="Security" />
+                    <span>JUnit</span>
+                </div>
+
+                <div className="certificate__item">
+                    <img src={GitHub} alt="Security" />
+                    <span>GitHub</span>
+                </div>
+
             </div>
         </div>
-    </section>    
+    </section>
   )
 }
 

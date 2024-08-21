@@ -1,9 +1,9 @@
 import React from 'react'
 
-const FrontEnd = () => {
-  return (
-    <div className="skills__content">
-        <h3 className="skills__title">FrontEnd Development</h3>
+const Tools = () => {
+    return (
+        <div className="skills__content">
+            <h3 className="skills__title">Tools</h3>
 
             <div className="skills__box ">
                 <div className="skills__group">
@@ -11,7 +11,7 @@ const FrontEnd = () => {
                     <div className="skills__data">
                         <i className="bx bx-badge-check"></i>
                         <div>
-                            <h3 className="skills__name">Angular</h3>
+                            <h3 className="skills__name">GitHub</h3>
                             <span className="skills__level">Intermediate</span>
                         </div>
                     </div>
@@ -19,7 +19,7 @@ const FrontEnd = () => {
                     <div className="skills__data">
                         <i className="bx bx-badge-check"></i>
                         <div>
-                            <h3 className="skills__name">React</h3>
+                            <h3 className="skills__name">Jira</h3>
                             <span className="skills__level">Beginner</span>
                         </div>
                     </div>
@@ -27,7 +27,7 @@ const FrontEnd = () => {
                     <div className="skills__data">
                         <i className="bx bx-badge-check"></i>
                         <div>
-                            <h3 className="skills__name">HTML/CSS</h3>
+                            <h3 className="skills__name">Postman</h3>
                             <span className="skills__level">Intermediate</span>
                         </div>
                     </div>
@@ -35,23 +35,15 @@ const FrontEnd = () => {
                     <div className="skills__data">
                         <i className="bx bx-badge-check"></i>
                         <div>
-                            <h3 className="skills__name">JavaScript</h3>
+                            <h3 className="skills__name">Intelli J</h3>
                             <span className="skills__level">Intermediate</span>
-                        </div>
-                    </div>
-
-                    <div className="skills__data">
-                        <i className="bx bx-badge-check"></i>
-                        <div>
-                            <h3 className="skills__name">Tailwind</h3>
-                            <span className="skills__level">Beginner</span>
                         </div>
                     </div>
 
                 </div>
             </div>
-    </div>
-  )
+        </div>
+    )
 }
 
-export default FrontEnd
+export default Tools
