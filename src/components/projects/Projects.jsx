@@ -4,6 +4,7 @@ import './Projects.css';
 import Calculator from '../../assets/projects/calculator.png';
 import TVRD from '../../assets/projects/project.png';
 import SHJ from '../../assets/projects/shj.jpg';
+import ProjectCard from './ProjectCard';
 
 const Services = () => {
 
@@ -19,6 +20,10 @@ const Services = () => {
             <span className="section__subtitle">What i have done</span>
 
             <div className="services__container container grid">
+
+            {/* <ProjectCard name="asd" description="asd" />
+            <ProjectCard name="asd" description="asd" />
+            <ProjectCard name="asd" description="asd" /> */}
 
                 <div className="services__content">
 
@@ -36,8 +41,7 @@ const Services = () => {
                             <div className="data__tags ">
                                 <p className='tags'>Angular</p>
                                 <p className='tags'>SpringBoot</p>
-                                <p className='tags'>MySql</p>
-                                <p className='tags'>Material</p>
+                                <p className='tags'>Tailwind</p>
                             </div>
                         </div>
                     </div>
@@ -82,7 +86,6 @@ const Services = () => {
                                 <p className='tags'>Angular</p>
                                 <p className='tags'>SpringBoot</p>
                                 <p className='tags'>MySql</p>
-                                <p className='tags'>Material</p>
                             </div>
                         </div>
                     </div>

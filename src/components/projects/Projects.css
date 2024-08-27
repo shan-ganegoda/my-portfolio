@@ -1,22 +1,23 @@
+
 .services__container{
     grid-template-columns: repeat(3,400px);
     justify-content: center;
     column-gap: 1.8rem;
+
+
 }
 
 .services__content{
     position: relative;
     border: 1px solid rgba(0,0,0,0.1);
-    
-    
     overflow: hidden;
-
     width: 25rem;
 
     @apply
     rounded-2xl
     shadow-2xl
-    
+    p-2
+    /* bg-[#000319] */
     
 }
 
@@ -27,12 +28,15 @@
 .data__content img{
     width: 100%;
     height: 15rem;
+
+    @apply
+    rounded-t-2xl
 }
 
 .data__title{
     font-size: var(--font-semi-bold);
     font-weight: 600;
-    color: black;
+    color: rgb(0, 0, 0);
     margin-bottom: 1rem;
 }
 
